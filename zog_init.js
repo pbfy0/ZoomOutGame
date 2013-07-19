@@ -8,7 +8,7 @@ var puzzle_obj;
 function initialize() {
  
   var places = [];
-    //  places = WorldBigIslands_21_48.slice(0);
+   //   places = WorldBigIslands_21_48.slice(0);
     //    places = MediterraneanIslands.slice(0);
 
     //     places = EuropeCountries.slice(0);
@@ -20,8 +20,8 @@ function initialize() {
  //   places = GBcities.slice(0);
   //  places = StrangePlaces.slice(0);
  //   places = PopulousIslands.slice(0,8);
-//    places = WorldBigIslands_top20.slice(0,3);
-    places = Phillipines_Big11.slice(0,5);
+    places = WorldBigIslands_top20.slice()//0,3);
+//   places = Phillipines_Big11.slice(0,5);
     console.log('counter, places.length: ' + localStorage.counter + " " + places.length);
     //   shuffle(places); 
 

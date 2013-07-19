@@ -6,8 +6,9 @@
     <style type="text/css">
       html { height: 100% }
       body { height: 100%; margin: 0; padding: 0 }
-      #map_canvas { height: 100%; width: 80%; float: left}
-      #answer_buttons {display: inline-block; margin-left: 15px}
+      #map-canvas { height: 100%; width: 80%; float: left}
+      #answers {display: inline-block; margin-left: 15px}
+      #answers a {display: block;}
 /*      #buttons {float: right; display: inline-block; text-align: right}*/
       #answer_buttons a {display: block}
     </style>
@@ -16,19 +17,12 @@
 	    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC3v79mr8qBDYk_FpYKSIpx4HE9237hSuY&sensor=false">
     </script> 
 
-<!--    <script src="../js_lib/hashtable.js"></script>
-    <script src="../js_lib/tly_util.js"></script>-->
-  <script src="places.js"></script>	
-    <script src="zog_init.js"></script>	
-    <script src="zoom_out_game.js"></script>
+  <script src="places2.js"></script>	
+    <script src="zoom_out2.js"></script>
   </head>
-  <body onload="initialize()">
-
-
-   <div id="map_canvas" ></div>
-
-  <div id="zoom_buttons" ></div>
-   <div id="answer_buttons"></div>
+  <body>
+   <div id="map-canvas" ></div>
+   <div id="answers"></div>
  
   </body>
 </html>
